@@ -1,0 +1,23 @@
+body {
+	width: 100vw;
+	background-color: $black;
+	background-image: url(../../img/img_bg.jpg);
+	background-size: cover;
+}
+
+.layout {
+	display: flex;
+	align-items: center;
+	min-height: 100vh;
+	width: 90vw;
+	margin: 0 auto;
+}
+
+	.layout__item--main {
+		width: 100;
+
+		@media(min-width: $screen-sm) {
+			width: 50%;
+			margin-left: 10%;	
+		}
+	}

@@ -1,0 +1,29 @@
+{
+  "name": "weights-club",
+  "version": "1.0.0",
+  "description": "The website for health and fitness iOS and Android application, Weights Club",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.0.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-uglify": "^2.0.1",
+    "gulp-notify": "^3.0.0",
+    "path": "^0.12.7",
+    "run-sequence": "^1.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomombutler/weights-club.git"
+  },
+  "author": "Tom Butler",
+  "license": "ISC",
+}

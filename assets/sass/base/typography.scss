@@ -1,0 +1,27 @@
+@font-face {font-family: 'Reglo-Bold';src: url('../../../assets/webfonts/Reglo-Bold.ttf') format('truetype');}
+
+html,
+body {
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    font-style: normal;
+    color: $black;
+    -webkit-font-smoothing: antialiased;
+}
+
+.heading-large {
+    font-family: $font-family-headline;
+    font-size: 3rem;
+    color: $white;
+    letter-spacing: 0.5px;
+    line-height: 3.3rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.paragraph-intro {
+    font-size: 1.176rem;
+    color: rgba($white, 0.75);
+    line-height: 1.9rem;
+    margin: 28px 0 0;
+}
